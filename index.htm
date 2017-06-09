@@ -1,0 +1,688 @@
+﻿
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fixed layout example with Twitter Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+       <!--<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <nav class="navbar navbar-default">
+      <div class="container">
+          <div class="row">
+              <ul class="nav navbar-nav">
+                  <li ><a href="#" ><p> <span class="glyphicon glyphicon-user"></span>&#8194 SignIn </p></a></li>
+                  <li><a href="#" > Become a Supporter</a></li>
+                  <li ><a href="#"  style="border-left: 1px solid  #CCCCCC;padding: 10px">Subscribe</a></li>
+                  <li><a href="#" ><p> <span class="glyphicon glyphicon-search"></span>&#8194 Search </p></a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                  <li ><a href="#"><p>  Jobs </p></a></li>
+                  <li><a href="#"> Dating </a></li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li>From the Guardian: </li>
+                          <li><a href="#">Jobs</a></li>
+                      </ul>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">International Edition <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="#" style="border-bottom: 1px solid #CCCCCC">UK Edition</a></li>
+                      <li><a href="#" style="border-bottom: 1px solid #CCCCCC">US Edition</a></li>
+                      <li><a href="#">Australia Edition</a></li>
+                  </ul>
+              </ul>
+          </div>
+          <p class="text-right" style="font-family: 'Bitstream Charter';font-size: 500%"><strong>theguardian</strong></p>
+          <div class="row">
+              <ul class="nav navbar-nav">
+                  <li ><a href="#"><p> <span class="glyphicon glyphicon-home"></span></p></a></li>
+                  <li><a href="#"> UK</a></li>
+                  <li><a href="#"> World</a></li>
+                  <li><a href="#"> Sport</a></li>
+                  <li><a href="#"> Football</a></li>
+                  <li><a href="#"> Opinion</a></li>
+                  <li><a href="#"> Culture</a></li>
+                  <li><a href="#"> Business</a></li>
+                  <li><a href="#"> LifeStyle</a></li>
+                  <li><a href="#"> Fashion</a></li>
+                  <li><a href="#"> Environment</a></li>
+                  <li><a href="#"> Tech</a></li>
+                  <li><a href="#" > Travel</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right navbar-inverse">
+                  <li ><a href="#"><p><span class="glyphicon glyphicon-menu-hamburger"></span>  all sections </p></a></li></ul>
+          </div>
+      </div>
+</nav>
+  <div class="container">
+      <div class="row">
+          <a href="#"> home</a>
+      </div>
+      <div class="row">
+          <div class="col-sm-2">
+              <hr>
+              <h4> <strong>headlines</strong></h4>
+              <h6>Wednesday</h6>
+              <h6> 7 June 2017</h6>
+              <div class="row">
+              <img class="pull-left img-responsive" src="partlycloudy.png" alt="Cloudy Image">
+              <div >
+                  <small>Now</small> 27<sup>&#8728</sup>C</div>
+              </div>
+              <div class="table-responsive">
+                  <table class="table">
+                      <tbody>
+                      <tr>
+                          <td>21:00</td>
+                          <td>28<sup>&#8728</sup>C</td>
+                          <td><img class="img-responsive" src="partlycloudy.png" alt="Cloudy Image"></td>
+                      </tr>
+                      <tr>
+                          <td>00:00</td>
+                          <td>27<sup>&#8728</sup>C</td>
+                          <td><img class="img-responsive" src="partlycloudy.png" alt="Cloudy Image"></td>
+                      </tr>
+                      <tr>
+                          <td>03:00</td>
+                          <td>28<sup>&#8728</sup>C</td>
+                          <td><img class="img-responsive" src="partlycloudy.png" alt="Cloudy Image"></td>
+                      </tr>
+                      </tbody>
+                  </table>
+                  <div>
+                      Lahore<span class="pull-right glyphicon glyphicon-search"></span></div>
+                  </div>
+          </div>
+          <div class="col-sm-7">
+              <hr>
+              <div class="row">
+                  <img class="pull-right img-responsive" src="Images/busi.jpg" alt="Cloudy Image">
+                  <p><h3> General Elections and parties enter final hours of personlized and burising compagin</h3> Theresa May and Jeremy Corbyn make final appeals as UK prepares to go to the polls</p>
+                  <a href="#"><p> <span class="glyphicon glyphicon-comment"></span> 23,444</p></a>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4">
+                      <hr>
+                      <p><b>Tabloid attacks on Corbiyn /</b><a href="#">How social media ha hit back</a></p>
+                  </div>
+                  <div class="col-sm-4">
+                      <hr>
+                      <p><b>Lib Dems Tim Farron /</b><a href="#">leads for Labour votes in marginal seats</a></p>
+                  </div>
+                  <div class="col-sm-4" >
+                      <hr>
+                      <p><b>Scotland/</b><a href="#">SNP braced to lose up to 12 seats amid backlash
+                      </a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-3" style="border-left: 1px solid  #CCCCCC;">
+              <hr>
+              <div class="row">
+                  <div class="col-sm-6">
+                      <img class="img-responsive" src="Images/ap.jpg" alt="person Image">
+                  </div>
+                  <div class="col-sm-6">
+                      <img class="img-responsive" src="Images/james1.jpg" alt="person Image">
+                  </div>
+              </div>
+              <p><h3> James Comey reveals concerns about Trump in devastating account to Congress</h3> </p>
+              <hr>
+              <p><b>obstruction of justice/</b><a href="#">the three worlds that spell danger for Trump</a></p>
+          </div>
+      </div>
+      <div class="row">
+          <div class=" col-sm-2 ">
+          </div>
+           <div class="col-sm-4">
+               <hr>
+               <div class="row">
+                   <div class="col-sm-3"> <img class="img-responsive" src="Images/1.jpg" alt="person Image"></div>
+                    <div class="col-sm-3"><img class="img-responsive" src="Images/2.jpg" alt="person Image"> </div>
+                    <div class="col-sm-3"> <img class="img-responsive" src="Images/3.jpg" alt="person Image"></div>
+                    <div class="col-sm-3"> <img class="img-responsive" src="Images/4.jpg" alt="person Image"></div>
+               </div>
+               <div class="row">
+                   <div class="col-sm-3"> <img class="img-responsive" src="Images/5.jpg" alt="person Image"></div>
+                    <div class="col-sm-3"> <img class="img-responsive" src="Images/6.jpg" alt="person Image"></div>
+                    <div class="col-sm-3"><img class="img-responsive" src="Images/7.jpg" alt="person Image"> </div>
+                    <div class="col-sm-3"> <img class="img-responsive" src="Images/8.jpg" alt="person Image"></div>
+               </div>
+               <h4><b>London Bridge attack/</b> las of eight victims identified as Xavier thomas</h4>
+               <p> Three French citizens, two Australians, one Canadian, one Spaniard and one Briton died in terror attacks on 3 June</p>
+               <div class="row">
+                   <div class="col-sm-4">
+                       <hr><p><b>Hate Crimes/</b><a href="#">Anti-Muslim hate crimes increase fivefold since London Bridge attacks</a></p>
+                   </div>
+                    <div class="col-sm-4">
+                       <hr><p><b>Shocked and appealed/</b><a href="#">Families of London Bridge attackers speak of shock and condemn their actions</a></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <hr><p><b>CIA Chief/</b><a href="#">Arump's attack on London mayor 'indefensible', says former CIA chief</a></p>
+                    </div>
+               </div>
+          </div>
+          <div class="col-sm-3" style="border-left: 1px solid  #CCCCCC;padding: 10px">
+              <hr>
+              <img class="img-responsive" src="Images/spine.jpg" alt="person Image">
+              <h4>Oldest Homo sapiens bones ever found shake foundations of the human story</h4><hr>
+              <p><b>Qatar Crises/</b><a href="#"> Russian hackers to blame for sparking Qatar crisis, FBI inquiry finds</a></p>
+              <hr><p><b>Iran/</b><a href="#"> Iranian military blames Saudis after 12 killed in Tehran terrorist attack</a></p>
+          </div>
+           <div class="col-sm-3">
+               <hr><p><b>Revealed/</b><a href="#"> scale of hospital staff shortages in top Tory areas</a></p>
+               <hr><p><b>Baileys prize /</b><a href="#"> goes to 'classic of the future' by Naomi Alderman</a></p>
+               <a href="#"><span class="glyphicon glyphicon-comment"></span> 6</a>
+               <hr><p><b>Nigel Farage /</b><a href="#"> Former Farage aide gave US information in plea deal, court files show</a></p>
+               <hr><p><b>Chris Hutcheson /</b><a href="#"> Gordon Ramsay’s father-in-law jailed for six months</a></p>
+               <hr><p><b>Neuroscience /</b><a href="#">Suppressing the reasoning part of the brain stimulates creativity, scientists find </a></p>
+               <a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a>
+           </div>
+      </div>
+      <span class="bottom-left"><button type="button" class=" btn btn-link" style="">Daily Email- Signup</button></span>
+      <hr>
+      <div class="row">
+          <div class="col-sm-2"><p><h4>Election ToolKit</h4></p></div>
+          <div class="col-sm-offset-10"><input type="button" onclick="alert('Hello World!')" value="Hide"></div>
+      </div>
+      <div class="row">
+          <div class="col-sm-2">
+              <p>Use our tools to stay informed</p>
+          </div>
+          <div class="col-sm-10">
+              <div class="col-sm-3"><p><img class="img-responsive" src="Images/election.jpg" alt="election Image"></p><p>Tactical voting guide: how to make your vote count in the 2017 election</p></div>
+              <div class="col-sm-3"><p><img class="img-responsive" src="Images/election.jpg" alt="election Image"></p><p>Who can I vote for? Search for your UK election candidates</p></div>
+              <div class="col-sm-3"><p><img class="img-responsive" src="Images/election.jpg" alt="election Image"></p><p>party pledges/ the UK manifest election compared</p></div>
+              <div class="col-sm-3"><p><img class="img-responsive" src="Images/election.jpg" alt="election Image"></p><p>The Guardian view on the election: it’s Labour</p></div>
+          </div>
+      </div>
+      <hr>
+      <div class="row">
+          <div class="col-sm-2">
+              <img class="img-responsive" src="Images/logo.png" alt="election Image">
+              <div class="row"><a href="#"> General Election 2007</a></div>
+          </div>
+          <div class="col-sm-10">
+              <div class="col-sm-offset-10">
+                  <input type="button" onclick="alert('Hello World!')" value="Hide">
+              </div>
+              <div class="row">
+                  <div class="col-sm-8">
+                      <hr>
+                      <a href="#">
+                          <img class="img-responsive" src="Images/video.jpg" alt="election Image">
+                          <h4><b>Britain's transformed election: what on earth is going on? – video</b></h4>
+                          <p>Britain's transformed election: what on earth is going on? – video</p>
+                      </a>
+                      <div class="row">
+                          <div class="col-sm-4">
+                              <hr>
+                              <p><b>owen jones /</b><a href="#">This is not over: we can still turn the arrogance of Theresa May into hubris</a></p>
+                          </div>
+                          <div class="col-sm-4">
+                              <hr>
+                              <p><b>Tory son/Labour dad/</b><a href="#">: life in a politically divided family</a></p>
+                          </div>
+                          <div class="col-sm-4">
+                              <hr>
+                              <p><b>John Crace /</b><a href="#">It had come down to this: vote Maybot, she's a bit better than Corbyn</a></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-4" style="border-left: 1px solid  #CCCCCC">
+                      <hr>
+                      <h3>" It all looked so good for the Tories. Then Paradise Syndrome struck</h3>
+                      <h3>Marina Hyde</h3>
+                      <div class="row">
+                          <div class="col-sm-offset-3">
+                              <img class="img-responsive" src="Images/MarinaHyde.png" alt="MarinaHyde Image">
+                          </div>
+                          <a href="#">
+                              <span class="glyphicon glyphicon-comment"></span> 1,301</a>
+                          </div>
+                      <img class="img-responsive" src="Images/dog.jpg" alt="dog Image">
+                      <h4>How do I vote in the UK general election? What you need to know</h4>
+                      <hr>
+                      <p>
+                          <b>opinion pools/</b>
+                          <a href="#">
+                              Tories on 12-point lead over Labour in ICM's final pre-election poll
+                          </a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <span class="bottom-left"><button type="button" class=" btn btn-link" style="">the snap- daily elct--</button></span>
+          <hr>
+          <div class="row">
+              <div class="col-sm-2">
+                  <img class="img-responsive" src="Images/logo.png" alt="election Image">
+                  <div class="row">
+                      <a href="#"> General Election 2007</a>
+                  </div>
+              </div>
+              <div class="col-sm-10">
+                  <div class="row">
+                      <div class="col-sm-2">
+                          <img class="img-responsive" src="Images/abc.jpg" alt="person Image">
+                      </div>
+                      <div class="col-sm-2">
+                          <img class="img-responsive" src="Images/abc.jpg" alt="person Image">
+                      </div>
+                      <div class="col-sm-2">
+                          <img class="img-responsive" src="Images/abc.jpg" alt="person Image">
+                      </div>
+                      <div class="col-sm-2">
+                          <img class="img-responsive" src="Images/abc.jpg" alt="person Image">
+                      </div>
+                      <div class="col-sm-2">
+                          <img class="img-responsive" src="Images/abc.jpg" alt="person Image">
+                      </div>
+                      <div class="col-sm-2">
+                          <img class="img-responsive" src="Images/abc.jpg" alt="person Image">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <hr>
+  </div>
+  <div class="container-fluid">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-4">
+                  <h2>The Guardian is supported by hundreds of thousands of readers.</h2>
+                  <h2>Join those funding independent, open journalism</h2>
+              </div>
+              <div class="col-sm-4">
+                  <p >" As a deeply worried citizen of the world, I really appreciate the Guardian’s long-standing commitment to independent journalism and especially to keeping climate change in the news. Honestly, I regret that it took me this long to put my money where my mouth is Supporter, Canada</p>
+              </div>
+              <div class="col-sm-4">
+                  <p >I wanted to find out about the French presidential election and there was no question where I would look. After logging in, I saw with astonishment that I had been using the Guardian for 10 years, almost to the day. That made up my mind Supporter, Germany</p>
+                   <div class="row">
+                       <div class="col-sm-6">
+                           <a href="#">Become A supporter<span class="glyphicon glyphicon-arrow-right"></span> </a>
+                       </div>
+                       <div class="col-sm-6">
+                            <a href="#">Make A contribution<span class="glyphicon glyphicon-arrow-right"></span> </a>
+                       </div>
+                   </div>
+              </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col-sm-2">
+                  <h2>spotlight</h2>
+                  <img class="pull-bottom img-responsive" src="Images/crosswords.jpg" alt="person Image">
+                  <span class="bottom-left"><button type="button" class=" btn btn-link" style="">Crosswords</button></span>
+              </div>
+              <div class="col-sm-10">
+                  <div class="col-sm-offset-10">
+                      <input type="button" onclick="" value="Hide">
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-8">
+                          <hr>
+                          <img class="pull-right img-responsive" src="Images/spine.jpg" alt="Cloudy Image">
+                          <p><h3> Oldest Homo sapiens bones ever found shake foundations of the human story</h3> Idea that modern humans evolved in East Africa 200,000 years ago challenged by extraordinary discovery of 300,000-year-old remains in Moroccan mine</p>
+                      </div>
+                  <div class="col-sm-4">
+                      <hr>
+                      <img class="pull-right img-responsive" src="Images/123.jpg" alt="Cloudy Image">
+                  </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <div class="row">
+                              <hr>
+                              <div class="col-sm-4">
+                                  <img class="img-responsive" src="Images/1.jpg" alt="person Image">
+                              </div>
+                              <div class="col-sm-8">
+                                  <h4>Apologist for Snickers: Twitter users hit back against attack on Corbyn</h4>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <hr>
+                              <div class="col-sm-4">
+                                  <img class="img-responsive" src="Images/1.jpg" alt="person Image">
+                              </div>
+                              <div class="col-sm-8">
+                                  <h4>Apologist for Snickers: Twitter users hit back against attack on Corbyn</h4>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <hr>
+                              <div class="col-sm-4">
+                                  <img class="img-responsive" src="Images/1.jpg" alt="person Image">
+                              </div>
+                              <div class="col-sm-8">
+                                  <h4>Apologist for Snickers: Twitter users hit back against attack on Corbyn</h4>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-4">
+                          <hr>
+                          <p>Advertisement</p>
+                          <img class="img-responsive" src="Images/ad.jpg" alt="person Image">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col-sm-2">
+                  <h2>Opinion</h2>
+                  <a href="#" class="btn btn-info" style="margin: 10px" role="button">the guardian view</a>
+                  <br>
+                  <a href="#" class="btn btn-info" style="margin: 10px" role="button">the opinion cartoon</a><br>
+                  <a href="#" class="btn btn-info" style="margin: 10px" role="button">the opinion email</a><br>
+              </div>
+              <div class="col-sm-10">
+                  <div class="col-sm-offset-10">
+                      <input type="button" onclick="" value="Hide">
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-3">
+                          <hr>
+                          <img class="img-responsive" src="Images/toy.jpg" alt="person Image">
+                          <h4>Steve Bell on the final day before the general election – cartoon</h4>
+                          <a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a>
+                          <p><a href="#" class="btn btn-info" style="margin: 10px" role="button"><span class="glyphicon glyphicon-plus"></span>More options</a><br></p>
+                      </div>
+                      <div class="col-sm-3">
+                          <hr>
+                          <img class="img-responsive" src="Images/flower.jpg" alt="person Image">
+                          <h4>This is not over: we can still turn the arrogance of Theresa May into hubris <a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></h4>
+                      </div>
+                      <div class="col-sm-3">
+                          <hr>
+                          <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a><hr>
+                          <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a><hr>
+                          <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a>
+                      </div>
+                      <div class="col-sm-3">
+                          <hr>
+                          <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a> <hr>
+                          <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a>
+                          <hr>
+                          <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col-sm-2">
+                  <h2>sports</h2>
+                  <a href="#" class="btn btn-info" style="margin: 10px" role="button">the Recap sports</a>
+                  <br>
+                  <a href="#" class="btn btn-info" style="margin: 10px" role="button">foot ball weekly</a><br>
+                  <a href="#" class="btn btn-info" style="margin: 10px" role="button">the fiver football</a><br>
+              </div>
+              <div class="col-sm-10">
+                  <div class="col-sm-offset-10">
+                      <input type="button" onclick="" value="Hide">
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <div class="row">
+                              <hr>
+                              <div class="col-sm-4">
+                                  <img class="img-responsive" src="Images/cricket.jpg" alt="person Image">
+                              </div>
+                              <div class="col-sm-8">
+                                  <h4>Football/ Conte has told me I am not wanted at Chelsea next season</h4>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <hr>
+                              <div class="col-sm-4">
+                                  <img class="img-responsive" src="Images/football.jpg" alt="person Image">
+                              </div>
+                              <div class="col-sm-8">
+                                  <h4>Football/ Conte has told me I am not wanted at Chelsea next season</h4>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <hr>
+                              <div class="col-sm-4">
+                                  <img class="img-responsive" src="Images/match.jpg" alt="person Image">
+                              </div>
+                              <div class="col-sm-8">
+                                  <h4>Football/ Conte has told me I am not wanted at Chelsea next season</h4>
+                              </div>
+                          </div>
+                          <p><a href="#" class="btn btn-info" style="margin: 10px" role="button"><span class="glyphicon glyphicon-plus"></span>More options</a><br></p>
+                      </div>
+                      <div class="col-sm-3">
+                          <hr>
+                          <img class="img-responsive" src="Images/football.jpg" alt="person Image">
+                          <h4>Andy Murray rallies to overcome Kei Nishikori to reach semi-finals</h4>
+                          <hr>
+                          <p><b>opinion pools/</b><a href="#"> Andy Murray is in the semi‑finals of the French Open for the fourth year in a row, exploding the myth, surely, that clay is his weakest surface</a></p>
+                      </div>
+                      <div class="col-sm-3">
+                          <hr>
+                          <img class="img-responsive" src="Images/cricket.jpg" alt="person Image">
+                          <h4>Andy Murray rallies to overcome Kei Nishikori to reach semi-finals</h4>
+                          <hr>
+                          <p><b>opinion pools/</b><a href="#"> Andy Murray is in the semi‑finals of the French Open for the fourth year in a row, exploding the myth, surely, that clay is his weakest surface</a></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col-sm-2">
+                  <h2>from the UK</h2>
+              </div>
+              <div class="col-sm-10">
+                  <div class="col-sm-offset-10"><input type="button" onclick="" value="Hide">
+              </div>
+          <div class="row">
+                  <div class="col-sm-3">
+                      <hr>
+                      <img class="img-responsive" src="Images/UK1.jpg" alt="person Image">
+                      <h4>Former Farage aide gave US information in plea deal, court files show</h4>
+                      <p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p>
+                  </div>
+                  <div class="col-sm-3">
+                      <hr>
+                      <img class="img-responsive" src="Images/Uk2.jpg" alt="person Image">
+                      <h4>Former Farage aide gave US information in plea deal, court files show <p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p> </h4>
+                  </div>
+                  <div class="col-sm-3">
+                      <hr>
+                      <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4> <p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p>
+                      <hr>
+                      <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p> <hr>
+                      <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p>
+                  </div>
+                  <div class="col-sm-3">
+                      <hr>
+                      <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p> <hr>
+                      <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p>
+                      <hr>
+                      <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p>
+                  </div>
+          </div>
+                  <p><a href="#" class="btn btn-info" style="margin: 10px" role="button"><span class="glyphicon glyphicon-plus"></span>More from UK</a><br></p>
+              </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col-sm-2">
+                  <h2>explorer</h2>
+                  <a href="#" class="btn btn-info" style="margin: 10px" role="button">The long read</a>
+                  <a href="#" class="btn btn-info" style="margin: 10px" role="button">the web we want</a>
+              </div>
+              <div class="col-sm-10">
+                  <div class="col-sm-offset-10">
+                      <input type="button" onclick="" value="Hide">
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <img class="img-responsive" src="Images/shop.jpg" alt="person Image">
+                          <h4>From rust belt to mill towns: a tale of two voter revolts</h4>
+                          <div class="row">
+                              <div class="col-sm-6">
+                                  <img class="img-responsive" src="Images/music.jpg" alt="person Image">
+                                  <h4>Richard Dawson review – modern folk tales with strange, thrilling radiance</h4>
+
+                              </div>
+                              <div class="col-sm-6">
+                                  <img class="img-responsive" src="Images/fossil.jpg" alt="person Image">
+                                  <h4>Fossil mushroom discovered from the era of the dinosaurs</h4>
+                              </div>
+                          </div>
+                          <p><a href="#" class="btn btn-info" style="margin: 10px" role="button"><span class="glyphicon glyphicon-plus"></span>More Explorer</a><br></p>
+                      </div>
+                      <div class="col-sm-3">
+                          <img class="img-responsive" src="Images/3007.jpg" alt="person Image">
+                          <h4>You say you want a sexual revolution: why 1967 is the year pop came out</h4>
+                          <p>Fifty years ago, homosexuality was decriminalised – and pop was never the same again. From Dusty and Motown to Mick Jagger and the Kinks, here are the songs, scenes, clubs and clothes that liberated Britain</p>
+                          <div class="row">
+                              <img class="img-responsive" src="Images/elect.jpg" alt="person Image"><h4>From Trading Places to The Campaign: four films that teach us lessons about the election</h4>
+                          </div>
+                      </div>
+                      <div class="col-sm-3">
+                          <img class="img-responsive" src="Images/3504.jpg" alt="person Image">
+                          <h4>Hit the road, Jack Reacher: why Tom Cruise should ditch the goody two-shoes act</h4>
+                          <p>Cruise plays the hero with a megawatt smile yet again in The Mummy. But a survey of his less likable characters reveals an actor born to play the baddie But a survey of his</p>
+                          <img class="img-responsive" src="Images/street.jpg" alt="person Image"><h4>Consequences of attacks in Tehran will be felt around the world</h4>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="#">tip us of</a>
+      </div>
+      <h1> <span class="glyphicon glyphicon-eye-open"></span> <span class="glyphicon glyphicon-eye-open"></span>share stories with the Guardian Securly and confidentiality</h1>
+  </div>
+</nav>
+  <div class="container">
+      <hr>
+       <div class="row">
+          <div class="col-sm-2">
+              <h2>Around the world</h2>
+              <a href="#" class="btn btn-info" style="margin: 10px" role="button">World Netwoks</a>
+          </div>
+          <div class="col-sm-10">
+              <div class="col-sm-offset-10">
+              <input type="button" onclick="" value="Hide">
+              </div>
+          <div class="row">
+                  <div class="col-sm-3">
+                      <hr>
+                      <img class="img-responsive" src="Images/UK1.jpg" alt="person Image">
+                      <h4>Former Farage aide gave US information in plea deal, court files show</h4>
+                      <p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p>
+                  </div>
+                  <div class="col-sm-3">
+                      <hr>
+                      <img class="img-responsive" src="Images/Uk2.jpg" alt="person Image">
+                      <h4>Former Farage aide gave US information in plea deal, court files show<p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p></h4>
+                  </div>
+                  <div class="col-sm-3">
+                      <hr><h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4> <p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p><hr>
+                      <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p> <hr>
+                      <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p>
+                  </div>
+                  <div class="col-sm-3">
+                      <hr>
+                      <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p> <hr>
+                      <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p> <hr>
+                      <h4>I have prosecuted terrorists – and know human rights laws make us safer Keir Starmer</h4><p><a href="#"><span class="glyphicon glyphicon-comment"></span> 72</a></p>
+                  </div>
+              </div>
+              <p><a href="#" class="btn btn-info" style="margin: 10px" role="button"><span class="glyphicon glyphicon-plus"></span>More around the world</a><br></p>
+          </div>
+       </div>
+      <hr>
+  </div>
+  <nav class="navbar navbar-default">
+       <div class="container">
+           <p><a href="index.htm"><span class="glyphicon glyphicon-triangle-top"></span> Back to top</a></p>
+           <div class="row">
+                <ul class="nav navbar-nav">
+                    <li ><a href="#"><p> <span class="glyphicon glyphicon-home"></span></p></a></li>
+                    <li><a href="#"> UK</a></li>
+                    <li><a href="#"> World</a></li>
+                    <li><a href="#"> Sport</a></li>
+                    <li><a href="#"> Football</a></li>
+                    <li><a href="#"> Opinion</a></li>
+                    <li><a href="#"> Culture</a></li>
+                    <li><a href="#"> Business</a></li>
+                    <li><a href="#"> LifeStyle</a></li>
+                    <li><a href="#"> Fashion</a></li>
+                    <li><a href="#"> Environment</a></li>
+                    <li><a href="#"> Tech</a></li>
+                    <li><a href="#" > Travel</a></li>
+                </ul>
+               <ul class="nav navbar-nav navbar-right navbar-inverse">
+                   <li ><a href="#"><p><span class="glyphicon glyphicon-menu-hamburger"></span>  all sections </p></a></li>
+               </ul>
+           </div>
+       </div>
+      <ul class="navbar  navbar-inverse">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-4">
+                      <form>
+                          <div class="form-group">
+                              <label for="email">Sign Up to our Daily email</label>
+                              <input type="email" class="form-control" id="email" value="Enter Your email">
+                              <input type="button" value="Submit" >
+                          </div>
+                      </form>
+                  </div>
+                  <div class="col-sm-2">
+                      <ul class="nav nav-pills">
+                          <li><a href="#">Become a supporter</a></li>
+                          <li><a href="#">Make a contribution</a></li>
+                          <li><a href="#">secure drop</a></li>
+                          <li><a href="#">resolve technical issues</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-2">
+                       <ul class="nav nav-pills">
+                          <li><a href="#">Advertise with us</a></li>
+                          <li><a href="#">Work for us</a></li>
+                          <li><a href="#">contacts Us</a></li>
+                          <li><a href="#">complaints&corrections</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-2">
+                       <ul class="nav nav-pills">
+                          <li><a href="#">terms&conditions</a></li>
+                          <li><a href="#">privacy policy</a></li>
+                          <li><a href="#">cookie policy</a></li>
+                          <li><a href="#">digital newspaper archieve</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-2">
+                      <ul class="nav nav-pills">
+                          <li><a href="#">all topics</a></li>
+                          <li><a href="#">all contributions</a></li>
+                          <li><a href="#">facebook&#8194&#8194&#8194</a></li>
+                          <li><a href="#">twitter</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </ul>
+  </nav>
+  <div class="container">© 2017 Guardian News and Media Limited or its affiliated companies. All &nbsp; rights &nbsp; reserved.</div>
+    <!-- <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>-->
+  </body>
+</html>
